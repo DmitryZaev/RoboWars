@@ -31,7 +31,7 @@ class RestartButton: UIButton {
     }
     
     private func addBlur() {
-        let blurEffect = UIBlurEffect(style: .regular)
+        let blurEffect = UIBlurEffect(style: .light)
         let blurView = UIVisualEffectView(effect: blurEffect)
         blurView.frame = frame
         blurView.layer.cornerRadius = layer.cornerRadius
